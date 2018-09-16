@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Canvas</title>
+    </head>
+    <body>
+    <canvas id="myCanvas" width="500" height="500">
+    הדפדפן שלך אינו תומך ב-HTML 5
+    </canvas>
+	<script>
+	    var elem = document.getElementById('myCanvas');
+	    var ctx = elem.getContext('2d');
+
+	   	ctx.font = '30px Arial';
+    	ctx.strokeText("Ofek Haim", 50, 250);
+    	ctx.restore();
+	    
+
+	    // Draw black rect
+	    ctx.fillRect(50, 20, 145, 145);
+	    
+	    // Draw blue rect
+	    ctx.fillStyle = "rgb(0, 162, 232)";
+	    ctx.fillRect(135, 85, 125, 125);
+	    
+	    // Increase line width
+	    ctx.lineWidth = 5;
+	    
+	    // Draw black rect outline
+	    ctx.strokeStyle = "rgb(0, 0, 0)";
+	    ctx.strokeRect(50, 335, 145, 145);
+	    
+	    // Draw blue rect outline
+	    ctx.strokeStyle = "rgb(0, 162, 232)";
+	    ctx.strokeRect(135, 275, 125, 125);
+	    
+	    // Draw transparent yellow rect
+	    ctx.fillStyle = "rgba(255, 255, 0, 0.75)";
+	    ctx.fillRect(210, 180, 125, 125);
+	</script>
+    </body>
+</html>

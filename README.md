@@ -12,3 +12,4 @@ This repository include subjects in HTML5
 * Audio
 * Canvas
 * SVG
+* Geolocation

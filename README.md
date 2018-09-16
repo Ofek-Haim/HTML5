@@ -11,3 +11,4 @@ This repository include subjects in HTML5
 * Video
 * Audio
 * Canvas
+* SVG

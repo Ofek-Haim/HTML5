@@ -13,3 +13,4 @@ This repository include subjects in HTML5
 * Canvas
 * SVG
 * Geolocation
+* Web Storage

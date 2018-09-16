@@ -1,0 +1,14 @@
+<script> 
+    navigator.geolocation.watchPosition(showPosition,failAccess);
+    
+    function showPosition(position) {
+        alert(
+            position.coords.latitude 
+            + " " +
+            position.coords.longitude
+        );
+        }
+    function failAccess() {
+      alert('לא אישרת את הבקשה');
+    }
+</script>

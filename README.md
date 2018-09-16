@@ -10,3 +10,4 @@ This repository include subjects in HTML5
 * Semantic elements
 * Video
 * Audio
+* Canvas
